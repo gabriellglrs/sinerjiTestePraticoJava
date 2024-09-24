@@ -1,0 +1,49 @@
+# Bytecode do Java
+*.class
+
+# Logs
+*.log
+
+# Arquivos de configuração de ambiente
+*.env
+
+# Diretórios de build
+/build/
+/target/
+
+# Dependências locais
+/.gradle/
+/.mvn/
+/.mvnw/
+/out/
+
+# Arquivos temporários do IntelliJ IDEA
+.idea/
+*.iml
+
+# Arquivos temporários do Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos do NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Arquivos temporários do VSCode
+.vscode/
+
+# Arquivos de sistema
+*.DS_Store
+Thumbs.db
+
+# Diretórios de pacotes
+*.jar
+*.war
+*.ear
+
+# Outras ferramentas de compilação
+.gradle/
