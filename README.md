@@ -20,9 +20,11 @@ Este projeto é um sistema simples para calcular salários e benefícios de dife
   - Funcionário com maior benefício.
   - Vendedor que mais vendeu.
 
-## Estrutura do Projeto
+## Estrutura do Projeto em UML
 
-O projeto está dividido nas seguintes classes:
+![image](https://github.com/user-attachments/assets/03008dbf-b028-47d3-8de9-dc5bc8c7791a)
+
+## O projeto está dividido nas seguintes classes:
 
 1. **Funcionario (Classe Abstrata):** 
    - Contém os atributos e métodos comuns a todos os funcionários.
