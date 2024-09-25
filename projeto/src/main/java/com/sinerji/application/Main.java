@@ -31,17 +31,20 @@ public class Main {
           funcionarios.add(new Gerente("Juliana Alves", LocalDate.of(2017, 7, 1)));
           funcionarios.add(new Gerente("Bento Albino", LocalDate.of(2014, 3, 1)));
 
+          System.out.println("--------------------------------------------");
           System.out.println("- Sistema de Gerenciamento de Funcionários -");
+          System.out.println("--------------------------------------------");
 
-          int mes = 1;
+          int mes = 4;
           int ano = 2022;
 
           // Chamar os métodos para testar as funcionalidades
-          System.out.printf("Total pago em salários e benefícios: %.2f%n", FuncionarioService.totalPago(funcionarios, mes, ano));
-          System.out.printf("Total pago apenas em salários: %.2f%n", FuncionarioService.totalPagoSomenteSalarios(funcionarios, mes, ano));
-          System.out.printf("Total pago apenas em benefícios: %.2f%n", FuncionarioService.totalPagoSomenteBeneficios(funcionarios, mes, ano));
-          System.out.printf("Funcionário que recebeu o valor mais alto: %s%n", FuncionarioService.funcionarioComMaiorSalario(funcionarios, mes, ano));
-          System.out.printf("Funcionário com maior benefício: %s%n", FuncionarioService.funcionarioComMaiorBeneficio(funcionarios, mes, ano));
-          System.out.printf("Vendedor que mais vendeu: %s%n", FuncionarioService.vendedorComMaiorVenda(funcionarios, mes));
+          System.out.printf("Total pago em salários e benefícios: R$ %.2f%n", FuncionarioService.totalPago(funcionarios, mes, ano));
+          System.out.printf("Total pago apenas em salários: R$ %.2f%n", FuncionarioService.totalPagoSomenteSalarios(funcionarios, mes, ano));
+          System.out.printf("Total pago apenas em benefícios: R$ %.2f%n", FuncionarioService.totalPagoSomenteBeneficios(funcionarios, mes, ano));
+          System.out.printf("Funcionário que recebeu o valor mais alto: ( %s ) %n", FuncionarioService.funcionarioComMaiorSalario(funcionarios, mes, ano));
+          System.out.printf("Funcionário com maior benefício:  ( %s ) %n", FuncionarioService.funcionarioComMaiorBeneficio(funcionarios, mes, ano));
+          System.out.printf("Vendedor que mais vendeu:  ( %s ) %n", FuncionarioService.vendedorComMaiorVenda(funcionarios, mes));
+          System.out.println("--------------------------------------------");
      }
 }
