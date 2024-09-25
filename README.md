@@ -88,7 +88,7 @@ System.out.printf("Vendedor que mais vendeu: %s%n",
 - Java 8 ou superior
 - IDE de sua preferência (Eclipse, IntelliJ, NetBeans, etc.)
 8. **Como Executar:**
-- Clonar este repositório: git clone https://github.com/seu-usuario/sistema-gerenciamento-funcionarios.git
+- Clonar este repositório: git clone https://github.com/gabriellglrs/sinerjiTestePraticoJava.git
 - Importe o projeto em seu IDE de preferência.
 - Adicione o MES e ANO
  ```java
